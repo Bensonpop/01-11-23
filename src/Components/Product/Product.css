@@ -1,0 +1,40 @@
+.headline{
+    text-align: center;
+    background-color: coral;
+    border-radius: 5px ;
+    padding: .4rem;
+    width: 100%;
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: aquamarine;
+    max-width: 20rem;
+    padding: 3rem;
+    gap: 20px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.inputsection{
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.section{
+    display: flex;
+    border-radius: 10px;
+    padding: .6rem 1rem;
+}
