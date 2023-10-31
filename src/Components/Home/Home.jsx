@@ -1,8 +1,9 @@
 import React from 'react'
 import './Home.css'
-const Home = () => {
+const Home = (props) => {
   return (
     <div>
+      <h1>{props.pp}</h1>
       <h1 className='home'>Home page</h1>
     </div>
   )
